@@ -1,7 +1,29 @@
-<script>
-	window.fwSettings={
-	'widget_id':159000000013
-	};
-	!function(){if("function"!=typeof window.FreshworksWidget){var n=function(){n.q.push(arguments)};n.q=[],window.FreshworksWidget=n}}() 
-</script>
-<script type='text/javascript' src='https://widget.freshworks.com/widgets/159000000013.js' async defer></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website with Freshdesk Widget</title>
+</head>
+<body>
+    <h1>Welcome to My Website!</h1>
+    <p>Feel free to ask for support using the widget in the corner.</p>
+
+    <!-- Freshdesk Widget Code -->
+    <script type="text/javascript">
+        window.$zopim || (function(d, s) {
+            var z = $zopim = function(c) {
+                z._.push(c)
+            };
+            z._ = [];
+            var a = d.createElement(s);
+            a.async = true;
+            a.setAttribute("charset", "utf-8");
+            a.src = "https://v2.zopim.com/?YOUR_WIDGET_CODE";
+            var b = d.getElementsByTagName(s)[0];
+            b.parentNode.insertBefore(a, b)
+        })(document, "script");
+    </script>
+
+</body>
+</html>
